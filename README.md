@@ -28,8 +28,8 @@ This project demonstrates the creation of an ETL pipeline using AWS services, in
 ## Setup Instructions
 
 1) Create an S3 Bucket
-    • Create an S3 bucket with three subfolders.
-    • Upload the CSV file into the bucket.
+    - Create an S3 bucket with three subfolders.
+    - Upload the CSV file into the bucket.
    ![s3bucket](https://github.com/user-attachments/assets/71948b4e-0d2c-49b8-acbf-7d599a375fb1)
 
    
