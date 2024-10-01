@@ -20,12 +20,14 @@ This project demonstrates the creation of an ETL pipeline using AWS services, in
 - **AWS Athena**: For querying data
 - **AWS Glue Crawler**: For automatic schema discovery
 
+  ![ETL-Pipeline](https://github.com/user-attachments/assets/d2d0bac1-08b7-4c50-8cd1-a6a7e94ba213)
+
+
 ## Getting Started
 
 ### Prerequisites
 
 - An AWS account
-- Basic knowledge of AWS services
 - AWS CLI configured on your local machine
   https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-configure.html
 
