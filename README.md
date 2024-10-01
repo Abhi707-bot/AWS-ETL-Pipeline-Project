@@ -30,11 +30,13 @@ This project demonstrates the creation of an ETL pipeline using AWS services, in
 1) Create an S3 Bucket
     - Create an S3 bucket with three subfolders.
     - Upload the CSV file into the bucket.
+
    ![s3bucket](https://github.com/user-attachments/assets/71948b4e-0d2c-49b8-acbf-7d599a375fb1)
 
    
 3) Create an IAM Role for Glue
-    • Create an IAM role for the Glue workspace with admin access.
+    - Create an IAM role for the Glue workspace with admin access.
+   ![IAMRole](https://www.notion.so/Aws-Glue-11149fbaf34980dbad5af1cac23c90ef?pvs=4#11149fbaf3498010ba98f7fecd9730c6)
    
 4) Create a Database in AWS Glue Data Catalog
     • Initially, attempt to create tables manually for the database.
