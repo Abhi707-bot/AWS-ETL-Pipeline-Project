@@ -4,18 +4,18 @@
 This project demonstrates the creation of an ETL pipeline using AWS services, including S3, IAM, Glue, and Athena. The pipeline ingests data, transforms it, and loads it into S3 in Parquet format, with scheduled triggers for automation.
 
 ## Table of Contents
-• Technologies Used
-• Getting Started
-• Project Structure
-• Steps Performed
-• Trigger Configuration
+  [Link Text](♦ Technologies Used)
+  ♦ Getting Started
+  ♦ Project Structure
+  ♦ Steps Performed
+  ♦ Trigger Configuration
 
 ## Technologies Used
-   • AWS S3: For data storage
-   • AWS IAM: For role and permission management
-   • AWS Glue: For ETL processes and data cataloging
-   • AWS Athena: For querying data
-   • AWS Glue Crawler: For automatic schema discovery
+  ♦ AWS S3: For data storage
+  ♦ AWS IAM: For role and permission management
+  ♦ AWS Glue: For ETL processes and data cataloging
+  ♦ AWS Athena: For querying data
+  ♦ AWS Glue Crawler: For automatic schema discovery
 
 ## Getting Started
 
@@ -24,6 +24,7 @@ This project demonstrates the creation of an ETL pipeline using AWS services, in
 • An AWS account
 • Basic knowledge of AWS services
 • AWS CLI configured on your local machine
+https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-configure.html
 
 ## Setup Instructions
 
@@ -36,7 +37,7 @@ This project demonstrates the creation of an ETL pipeline using AWS services, in
    
 3) Create an IAM Role for Glue
     - Create an IAM role for the Glue workspace with admin access.
-   ![IAMRole](https://www.notion.so/Aws-Glue-11149fbaf34980dbad5af1cac23c90ef?pvs=4#11149fbaf3498010ba98f7fecd9730c6)
+   
    
 4) Create a Database in AWS Glue Data Catalog
     • Initially, attempt to create tables manually for the database.
