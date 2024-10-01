@@ -4,11 +4,11 @@
 This project demonstrates the creation of an ETL pipeline using AWS services, including S3, IAM, Glue, and Athena. The pipeline ingests data, transforms it, and loads it into S3 in Parquet format, with scheduled triggers for automation.
 
 ## Table of Contents
-♦ Technologies Used
-♦ Getting Started
-♦ Project Structure
-♦ Steps Performed
-♦ Trigger Configuration
+♦ <br Technologies Used/>
+♦ <br Getting Started/>
+♦ <br Project Structure/>
+♦ <Steps Performed/>
+♦ <Trigger Configuration/>
 
 ## Technologies Used
   ♦ AWS S3: For data storage
