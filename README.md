@@ -36,19 +36,19 @@ This project demonstrates the creation of an ETL pipeline using AWS services, in
    - Create an S3 bucket with subfolders.
    - Upload the CSV file into the bucket.
      ![s3bucket](https://github.com/user-attachments/assets/1d17d7a8-c67d-4c60-ba2b-cfe9d8e7dca5)
-
+<br />
 
 3. **Create an IAM Role for Glue**
    
    - Create an IAM role for the Glue workspace with admin access.
      ![Iam](https://github.com/user-attachments/assets/da1f38bb-1a35-4522-b650-ba0a41d1e547)
-
+<br />
 
 4. **Create a Database in AWS Glue Data Catalog**
    
    - Initially, attempt to create tables manually for the database.
      ![dbdatacatalog](https://github.com/user-attachments/assets/b579273b-482b-4307-b39f-9711c320d915)
-
+<br />
 
 5. **Set Up AWS Glue Crawler**
    
@@ -57,7 +57,7 @@ This project demonstrates the creation of an ETL pipeline using AWS services, in
      ![crawler1](https://github.com/user-attachments/assets/2eee1176-e63d-41d2-99f7-9a537d2f0d5c)
      ![crawler run](https://github.com/user-attachments/assets/2805ffdb-be32-46ea-8bdb-86d6ffcd4dcb)
      ![crawlercsv](https://github.com/user-attachments/assets/05890cad-088f-44bb-b5fb-639c18969555)
-
+<br />
 
 
 6. **ETL Process**
@@ -72,13 +72,13 @@ This project demonstrates the creation of an ETL pipeline using AWS services, in
 
    - AWS Glue will generate the ETL job script automatically.
      ![scripts](https://github.com/user-attachments/assets/804473ad-7807-4359-9102-c5ffb708b5ce)
-
+<br />
 
 7. **Run the ETL Job**
    
    - Execute the ETL job to load data into the S3 bucket in Parquet format.
      ![etlrun](https://github.com/user-attachments/assets/c82dffaf-5b10-4d27-92dd-d86ba9ddc8be)
-
+<br />
 
 8. **Athena Configuration**
    
@@ -87,7 +87,7 @@ This project demonstrates the creation of an ETL pipeline using AWS services, in
 
    - Load query results into the S3 bucket.
      ![reading data](https://github.com/user-attachments/assets/c95afcc4-562e-44be-a7bd-ed159bb4fe62)
-
+<br />
 
 ## Trigger Configuration
 
